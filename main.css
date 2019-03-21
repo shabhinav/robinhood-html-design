@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/*navbar styling*/
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;  
+}
+/*button styling*/
+.button{
+    background-color: #21ce99; /* Green */
+    border: none;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 4px;
+    cursor: pointer;
+    border-radius: 36px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 300%;
+    font-weight: bold;
+}
+/*bg img*/
+.back-pic{
+    background-image: url("https://d2ue93q3u507c2.cloudfront.net/assets-about/12921389c0049e025ba2c65801ca3c95.png");
+    height: 40vh;
+
+}
+
+section{
+    margin-top:50px;
+}
+/*grid and get started sec*/
+.grid-img,#lastsec-img{
+    padding-left: 40%;
+}
+/*bgcolor to stragtegies and execute section*/
+.back-col{
+    background:#040d14;
+}
+/*started sec button*/
+.btn-col{
+    background-color:white;
+    margin:auto;
+    color: #21ce99;
+    display: block;
+}
+/*margin to all p tags*/
+.mar-top{
+    margin-top:10%;
+}
+/*TRusted by section*/
+#sec-img{
+    background:#040d14;
+    min-height: 100vh;
+    padding: 270px 0%;
+}
+/*last-sec*/
+#last-sec{
+    padding: 7% 0%;
+    min-height: 50vh;
+    background:#21ce99;
+}
+/*text-col in img part*/
+.text-col{
+    color:white;
+}
+
+.center-align{
+    text-align: center;
+}
+  
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 26px;
+}
+
+p{
+    font-size: 17px;
+}
+
+.tx-col{
+    color: #21ce99;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
+.link-spc{
+    margin:13px;
+    color: black;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-nav>li>a:hover{
+    background-color: transparent; 
+    color: #21ce99;
+}
